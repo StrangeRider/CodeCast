@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance pointing to the API proxy
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
 });
 
 // Request interceptor to attach JWT token
