@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Core Styles for Interview-Simple Theme */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Single uniform button style throughout the application */
+.btn-primary {
+  background-color: #2563EB;
+  color: #FFFFFF;
+  border: 1px solid #2563EB;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity 0.1s ease;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Secondary border button */
+.btn-secondary {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid #D1D5DB;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  transition: opacity 0.1s ease;
+}
+
+.btn-secondary:hover {
+  opacity: 0.8;
+}
+
+/* Standard Input Box */
+.input-box {
+  width: 100%;
+  border: 1px solid #D1D5DB;
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.input-box:focus {
+  border-color: #2563EB;
+}

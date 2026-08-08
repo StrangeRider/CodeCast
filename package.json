@@ -1,0 +1,12 @@
+{
+  "name": "code-cast",
+  "version": "1.0.0",
+  "description": "Root helper commands for the decoupled collaborative editor project",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build:client": "npm run build --prefix client",
+    "start": "node server/server.js"
+  }
+}

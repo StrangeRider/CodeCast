@@ -1,0 +1,43 @@
+# Dependency directories (root and subfolders)
+node_modules/
+**/node_modules/
+node_modules
+
+# Documentation directory
+docs/
+/docs/
+
+# Local configuration environment secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Production compilation directories
+/client/dist/
+/dist/
+/build/
+
+# Testing reports
+/coverage/
+
+# OS metadata files
+.DS_Store
+Thumbs.db
+
+# IDE specific settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
