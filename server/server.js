@@ -49,10 +49,12 @@ require('./socket')(io);
 
 const fs = require('fs');
 const clientDistPath = path.join(__dirname, '../client/dist');
-if (fs.existsSync(clientDistPath)) {
+const indexPath = path.join(clientDistPath, 'index.html');
+
+if (fs.existsSync(indexPath)) {
   app.use(express.static(clientDistPath));
   app.get('*', (req, res) => {
-    res.sendFile(path.join(clientDistPath, 'index.html'));
+    res.sendFile(indexPath);
   });
 } else {
   app.get('/', (req, res) => {
