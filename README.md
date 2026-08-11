@@ -9,8 +9,12 @@ A full-stack collaborative web application built with **React**, **Vite**, **Tai
 ## Project Team & Contributions
 
 CodeCast was developed as a collaborative team project by **2 team members**:
+- **Project Idea & Features presented By:** Kumar Shaurya
+- **Developed By:** Kumar Shaurya & Veerendra Kumar
+
 
 - **Kumar Shaurya**: Developed the entire frontend single-page application (HTML, CSS, JavaScript, React components), integrated the Monaco Editor and Live Sandbox preview components, designed the dynamic file tree explorer, and connected MongoDB Atlas database integration.
+
 - **Veerendra Kumar**: Developed backend API architecture, database schema models (User & Workspace), JWT authentication middleware, Socket.io WebSocket listeners, and database seed configuration.
 
 ---
