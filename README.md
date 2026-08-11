@@ -6,7 +6,7 @@ A full-stack collaborative web application built with **React**, **Vite**, **Tai
 
 ---
 
-## 👥 Project Team & Contributions
+## Project Team & Contributions
 
 CodeCast was developed as a collaborative team project by **2 team members**:
 
@@ -15,7 +15,7 @@ CodeCast was developed as a collaborative team project by **2 team members**:
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 1. Real-Time Code Synchronization & Multi-User Rooms (Most Important Feature)
 
@@ -82,53 +82,3 @@ CodeCast offers both registered user accounts and instant guest access:
 * **`client/`**: Frontend React single-page application, Vite build config, Monaco Editor integration, and Tailwind styling.
 * **`server/`**: Backend REST API routes, Socket.io event handlers, Mongoose schemas, and JWT middleware.
 * **`docs/`**: Technical preparation guides, database schemas, and WebSocket protocol definitions.
-
----
-
-## 🛠️ Step-by-Step Run Instructions
-
-### Step 1: Clone & Open the Repository
-```bash
-git clone https://github.com/StrangeRider/CodeCast.git
-cd CodeCast
-```
-
-### Step 2: Install Dependencies
-Run this single command at the root folder to automatically install packages for both the client (frontend) and server (backend):
-```bash
-npm run install:all
-```
-
-### Step 3: Configure Environment Variables
-Create a file named `.env` in the root folder of the project and paste the following configuration:
-```env
-PORT=5000
-MONGODB_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/codecast
-JWT_SECRET=your_jwt_secret_key_here
-```
-
-### Step 4: Run the Application
-
-Choose **Option A** for development, or **Option B** for production deployment:
-
-#### Option A: Running in Development Mode (Recommended)
-Runs frontend and backend concurrently with hot-reloads enabled:
-
-1. **Start the Backend Server**:
-   ```bash
-   npm run dev:server
-   ```
-2. **Start the Frontend Client**:
-   ```bash
-   npm run dev:client
-   ```
-3. Open your browser to **`http://localhost:3000`**.
-
-#### Option B: Running in Production Mode
-Compiles frontend code and serves it directly through the Node server:
-
-```bash
-npm run build:client
-npm start
-```
-Open your browser to **`http://localhost:5000`**.
