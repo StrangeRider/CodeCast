@@ -1,7 +1,7 @@
 const path = require('path');
 const { io } = require(path.resolve(__dirname, '../client/node_modules/socket.io-client'));
 
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = process.env.TEST_URL || 'http://localhost:5000';
 
 let authToken = '';
 let testUserId = '';

@@ -126,20 +126,20 @@ const Home = () => {
       {/* 2. Hero Section */}
       <section className="max-w-7xl mx-auto px-6 py-20 md:py-28 text-center flex flex-col items-center">
         <div className="border border-gray-200 px-3 py-1 mb-6 text-[10px] uppercase font-bold tracking-widest text-gray-500 bg-gray-50">
-          Simple Real-time Codeoration
+          Simple Real-time Collaboration
         </div>
         <h2 className="text-4xl md:text-6xl font-black tracking-tight text-[#0F172A] max-w-3xl leading-tight">
-          Collabrative Code Editing, <span className="text-primary">Made Simple</span>
+          Collaborative Code Editing, <span className="text-primary">Made Simple</span>
         </h2>
         <p className="text-sm md:text-base text-gray-500 max-w-2xl mt-6 leading-relaxed">
-          A clean, high-performance real-time code editor built for technical interviews, peer learning, and simple classroom coding. No complex configuration, templates, or lag.
+          A clean, high-performance real-time code editor built for small Project Building, peer learning, and simple classroom coding. No complex configuration, templates, or lag.
         </p>
         <div className="mt-8 flex flex-wrap gap-4 justify-center">
           <button
             onClick={() => setActiveModal('register')}
             className="btn-primary px-8 py-3 text-sm font-semibold"
           >
-            Get Started (Free)
+            Get Started
           </button>
           <button
             onClick={() => setActiveModal('guest')}
@@ -157,7 +157,7 @@ const Home = () => {
             <div>
               <div className="text-[10px] uppercase font-bold tracking-widest text-primary mb-3">About CodeCast</div>
               <h3 className="text-2xl md:text-3xl font-black text-[#0F172A] tracking-tight">
-                Designed for Codeorative Development
+                Designed for Collaborative Development
               </h3>
               <p className="text-xs md:text-sm text-gray-500 mt-4 leading-relaxed">
                 Our CodeCast makes it easy for multiple users to work on the same coding project simultaneously. Changes made by one user are instantly synchronized and visible to everyone in the workspace, eliminating the need to repeatedly share files or manually merge changes.              </p>
@@ -165,17 +165,17 @@ const Home = () => {
                 The platform provides a simple and efficient environment for team projects, pair programming, coding practice, and collaborative development — all in one place.              </p>
             </div>
 
-            {/* <div className="border border-gray-200 p-8 bg-white flex flex-col gap-4">
-              <h4 className="font-bold text-xs uppercase tracking-wider text-gray-400">Core Architecture Stack</h4>
+            { <div className="border border-gray-200 p-8 bg-white flex flex-col gap-4">
+              <h4 className="font-bold text-xs uppercase tracking-wider text-gray-400">Main Features</h4>
 
               <div className="grid grid-cols-2 gap-4 text-xs font-semibold">
-                <div className="border border-gray-200 p-3 bg-gray-50">⚛️ React & Vite</div>
-                <div className="border border-gray-200 p-3 bg-gray-50">🚀 Express Backend</div>
-                <div className="border border-gray-200 p-3 bg-gray-50">🍃 MongoDB Mongoose</div>
-                <div className="border border-gray-200 p-3 bg-gray-50">🔌 Socket.io Sockets</div>
+                <div className="border border-gray-200 p-3 bg-gray-50">Create Multiple Rooms</div>
+                <div className="border border-gray-200 p-3 bg-gray-50">Create a Hierarchy of Files & Folders</div>
+                <div className="border border-gray-200 p-3 bg-gray-50">Allow Multiple Developers to Work on a Project</div>
+                <div className="border border-gray-200 p-3 bg-gray-50">Download the Project as a ZIP File with One Click</div>
               </div>
 
-            </div> */}
+            </div> }
 
           </div>
         </div>
@@ -227,7 +227,7 @@ const Home = () => {
             <span className="text-xs font-bold text-[#0F172A]">CodeCast</span>
           </div>
           <p className="text-[10px] text-gray-400">
-            Built for portfolio, placement interview preparation, and clean collaboration.
+            Code Together. Build Better.
           </p>
           <p className="text-[10px] text-gray-500 font-semibold">
             © 2026 CodeCast. All rights reserved.
